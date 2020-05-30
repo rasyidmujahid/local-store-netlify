@@ -33,7 +33,7 @@ var app = new Vue({
         whatsapp: 'https://wa.me/6281210971405'
       },
       {
-        id: 1,
+        id: 5,
         tag: ['kesehatan'],
         name: 'Toko Galeri Madina (E3.18)',
         description: 'Madu dan herbal',
@@ -41,6 +41,16 @@ var app = new Vue({
         seller_name: 'Arif',
         mobile_no: '085624969749',
         whatsapp: 'https://wa.me/6285624969749'
+      },
+      {
+        id: 5,
+        tag: ['food'],
+        name: 'Ozora Dimsum Kuliner',
+        description: '',
+        cover_image: 'assets/img/dimsum.jpg',
+        seller_name: 'Franky',
+        mobile_no: '085214929500',
+        whatsapp: 'https://wa.me/6285214929500'
       }
     ]
   }
