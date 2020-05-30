@@ -377,6 +377,35 @@
               </div>
             </div>
           </div> <!-- End Course Item-->
+        </div>
+
+        <div id="store" class="row" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-4" v-for="store in stores">
+            <div class="course-item">
+              <img :src="store.cover_image" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>{{ store.tag }}</h4>
+                  <p class="price">$180</p>
+                </div>
+
+                <h3><a href="course-details.html">{{ store.name }}</a></h3>
+                <p>{{ store.description }}</p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
+                    <span>{{ store.seller_name }}</span>
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    <i class="bx bx-user"></i>&nbsp;20
+                    &nbsp;&nbsp;
+                    <i class="bx bx-heart"></i>&nbsp;85
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
 
         </div>
 
