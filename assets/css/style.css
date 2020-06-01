@@ -770,6 +770,11 @@ section {
   color: #37423b;
 }
 
+.courses .course-content .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
 .courses .trainer {
   padding-top: 15px;
   border-top: 1px solid #eef0ef;
