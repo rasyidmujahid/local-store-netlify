@@ -732,6 +732,11 @@ section {
   border: 1px solid #5fcf80;
 }
 
+.courses .course-item img{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
 .courses .course-content {
   padding: 15px;
 }
