@@ -729,7 +729,9 @@ section {
 --------------------------------------------------------------*/
 .courses .course-item {
   border-radius: 5px;
-  border: 1px solid #9ae1af;
+  border: 1px solid #f3f3f3;
+  box-shadow: rgba(49, 53, 59, 0.12) 1px 1px 6px 0px;
+  background-color: rgb(255, 255, 255);
 }
 
 .courses .course-item img{
