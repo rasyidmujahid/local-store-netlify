@@ -20,7 +20,9 @@ var app = new Vue({
         cover_image: 'assets/img/sembako.jpg',
         seller_name: 'Ajo',
         mobile_no: '087885727559',
-        whatsapp: 'https://wa.me/6287885727559'
+        whatsapp: 'https://wa.me/6287885727559',
+        instagram: 'https://wa.me/6287885727559',
+        // facebook: 'https://wa.me/6287885727559'
       },
       {
         id: 3,
@@ -42,6 +44,46 @@ var app = new Vue({
         mobile_no: '085624969749',
         whatsapp: 'https://wa.me/6285624969749'
       },
+      {
+        id: 5,
+        tag: ['food'],
+        name: 'Ozora Dimsum Kuliner',
+        description: '',
+        cover_image: 'assets/img/dimsum.jpg',
+        seller_name: 'Franky',
+        mobile_no: '085214929500',
+        whatsapp: 'https://wa.me/6285214929500'
+      }, 
+      {
+        id: 5,
+        tag: ['food'],
+        name: 'Ozora Dimsum Kuliner',
+        description: '',
+        cover_image: 'assets/img/dimsum.jpg',
+        seller_name: 'Franky',
+        mobile_no: '085214929500',
+        whatsapp: 'https://wa.me/6285214929500'
+      }, 
+      {
+        id: 5,
+        tag: ['food'],
+        name: 'Ozora Dimsum Kuliner',
+        description: '',
+        cover_image: 'assets/img/dimsum.jpg',
+        seller_name: 'Franky',
+        mobile_no: '085214929500',
+        whatsapp: 'https://wa.me/6285214929500'
+      }, 
+      {
+        id: 5,
+        tag: ['food'],
+        name: 'Ozora Dimsum Kuliner',
+        description: '',
+        cover_image: 'assets/img/dimsum.jpg',
+        seller_name: 'Franky',
+        mobile_no: '085214929500',
+        whatsapp: 'https://wa.me/6285214929500'
+      }, 
       {
         id: 5,
         tag: ['food'],
