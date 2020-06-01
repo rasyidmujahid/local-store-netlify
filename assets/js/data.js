@@ -59,7 +59,7 @@ var app = new Vue({
         description: 'Ayam Bahar (Kuliner Ayam Bakar)',
         cover_image: 'assets/img/ayam-bakar.jpg',
         seller_name: 'Bahar',
-        mobile_no: '081295450548/085591401909',
+        mobile_no: '081295450548, 085591401909',
         whatsapp: 'https://wa.me/6281295450548'
       },
       {
