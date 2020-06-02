@@ -46,37 +46,6 @@
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <!-- <nav class="nav-menu d-none d-lg-block" style="display: none!important;">
-        <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="trainers.html">Trainers</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Deep Drop Down</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-
-        </ul>
-      </nav> -->
-      <!-- .nav-menu -->
-
       <a href="https://wa.me/6281291540605?text=Permisi, saya mau daftar di UMKM PBR2, bagaimana caranya?" class="get-started-btn">Ikut Daftar</a>
 
     </div>
@@ -121,7 +90,6 @@
             <p>
               Dari kita untuk kita.
             </p>
-            <!-- <a href="about.html" class="learn-more-btn">Learn More</a> -->
           </div>
         </div>
 
@@ -145,14 +113,12 @@
               <div class="course-content">
                 <div class="d-flex flex-wrap justify-content-start mb-2">
                   <a :href="tag" v-for="tag in store.tag" class="my-1 mr-1"><h4 class="p-1">{{ tag }}</h4></a>
-                  <!-- <p class="price">$180</p> -->
                 </div>
 
                 <h3><a href="course-details.html">{{ store.name }}</a></h3>
                 <p>{{ store.description }}</p>
                 <div class="trainer d-flex flex-wrap justify-content-between align-items-center">
                   <div class="d-flex flex-wrap align-items-start">
-                    <!-- <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt=""> -->
                     <span class="pr-2">{{ store.seller_name }}</span>
                     <span v-for="mobile_no in store.mobile_numbers">
                       <a :href="`tel:${mobile_no}`" class="mr-1">{{ mobile_no }}</a>
@@ -190,31 +156,8 @@
               Serua Indah, Ciputat<br>
               Tangerang Selatan <br><br>
               <strong>Telp:</strong> <a href="tel:081291540605">081291540605</a><br>
-              <!-- <strong>Email:</strong> info@example.com<br> -->
             </p>
           </div>
-
-          <!-- <div class="col-lg-2 col-md-6 footer-links" style="display: none;">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links" style="display: none;">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div> -->
 
         </div>
       </div>
@@ -232,8 +175,10 @@
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ -->
           Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          <p>Hero image by <a href="https://www.freepik.com/free-photos-vectors/business">Frepik Business vector</a>
-          Food image by <a href="https://www.freepik.com/free-photos-vectors/food">macrovector_official</a></p>
+          <p>
+            Hero image by <a href="https://www.freepik.com/free-photos-vectors/business">Frepik Business vector.</a>
+            Food image by <a href="https://www.freepik.com/free-photos-vectors/food">macrovector_official.</a>
+          </p>
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
