@@ -6,7 +6,7 @@ var app = new Vue({
         tag: ['sembako', 'makanan'],
         name: 'Toko Raffa',
         description: 'Sembako dan aneka kue',
-        cover_image: 'assets/img/aneka-kue.jpg',
+        cover_image: 'assets/img/sm/aneka-kue.jpg',
         seller_name: 'Mega',
         mobile_numbers: ['082110873440'],
         whatsapp: 'https://wa.me/62821108734401',
@@ -17,7 +17,7 @@ var app = new Vue({
         tag: ['sembako'],
         name: 'Toko Eza Mitra Usaha',
         description: 'Sembako dan pampers',
-        cover_image: 'assets/img/sembako.jpg',
+        cover_image: 'assets/img/sm/sembako.jpg',
         seller_name: 'Ajo',
         mobile_numbers: ['087885727559'],
         whatsapp: 'https://wa.me/6287885727559'
@@ -27,7 +27,7 @@ var app = new Vue({
         tag: ['sembako'],
         name: 'Toko Kosama',
         description: 'Air mineral dan sembako',
-        cover_image: 'assets/img/galon.jpg',
+        cover_image: 'assets/img/sm/galon.jpg',
         seller_name: 'Saleh',
         mobile_numbers: ['081210971405'],
         whatsapp: 'https://wa.me/6281210971405'
@@ -37,7 +37,7 @@ var app = new Vue({
         tag: ['kesehatan'],
         name: 'Toko Galeri Madina',
         description: 'Madu dan herbal',
-        cover_image: 'assets/img/madu.jpg',
+        cover_image: 'assets/img/sm/madu.jpg',
         seller_name: 'Arif (E3.18)',
         mobile_numbers: ['085624969749'],
         whatsapp: 'https://wa.me/6285624969749'
@@ -47,7 +47,7 @@ var app = new Vue({
         tag: ['makanan'],
         name: 'Ozora Dimsum Kuliner',
         description: 'Dimsum',
-        cover_image: 'assets/img/dimsum.jpg',
+        cover_image: 'assets/img/sm/dimsum.jpg',
         seller_name: 'Franky',
         mobile_numbers: ['085214929500'],
         whatsapp: 'https://wa.me/6285214929500'
@@ -57,7 +57,7 @@ var app = new Vue({
         tag: ['makanan'],
         name: 'Ezra Celullar',
         description: 'Ayam Bahar (Kuliner Ayam Bakar)',
-        cover_image: 'assets/img/ayam-bakar.jpg',
+        cover_image: 'assets/img/sm/ayam-bakar.jpg',
         seller_name: 'Bahar',
         mobile_numbers: ['081295450548', '085591401909'],
         whatsapp: 'https://wa.me/6281295450548'
@@ -67,7 +67,7 @@ var app = new Vue({
         tag: ['makanan', 'sembako'],
         name: 'Toko Juli',
         description: 'Kuliner Mie ayam & sambal bawang, Aqua & Telur Ayam',
-        cover_image: 'assets/img/mie-ayam.jpg',
+        cover_image: 'assets/img/sm/mie-ayam.jpg',
         seller_name: 'Ibu Juli',
         mobile_numbers: ['081287308995'],
         whatsapp: 'https://wa.me/6281287308995'
@@ -77,7 +77,7 @@ var app = new Vue({
         tag: ['makanan', 'frozen'],
         name: 'Pia, bakso, ikan dori, kentang frozen, kue dan kue kering',
         description: 'Pia, bakso,ikan dori,kentang Frozen,kue dan kue kering',
-        cover_image: 'assets/img/pia.jpg',
+        cover_image: 'assets/img/sm/pia.jpg',
         seller_name: '[]',
         mobile_numbers: ['081315779438'],
         whatsapp: 'https://wa.me/6281315779438'
@@ -87,7 +87,7 @@ var app = new Vue({
         tag: ['makanan', 'kesehatan'],
         name: 'Kios SK',
         description: 'Sambal kacang pecel Madiun, kebab & Dettol cair antiseptik',
-        cover_image: 'assets/img/pecel.jpg',
+        cover_image: 'assets/img/sm/pecel.jpg',
         seller_name: 'Ibu Daniel',
         mobile_numbers: ['085776452036'],
         whatsapp: 'https://wa.me/6285776452036'
@@ -97,7 +97,7 @@ var app = new Vue({
         tag: ['makanan', 'sembako'],
         name: 'Murni / Mustofa',
         description: 'jual aneka menu takjilan, kripik pisang dan Telur ayam',
-        cover_image: 'assets/img/keripik-pisang.jpg',
+        cover_image: 'assets/img/sm/keripik-pisang.jpg',
         seller_name: 'Murni / Mustofa',
         mobile_numbers: ['081382107077', '081398650908'],
         whatsapp: 'https://wa.me/6281382107077'
@@ -107,7 +107,7 @@ var app = new Vue({
         tag: ['sembako'],
         name: 'Toko Yuni',
         description: 'Sembako & Aqua & Gas',
-        cover_image: 'assets/img/sembako.jpg',
+        cover_image: 'assets/img/sm/sembako.jpg',
         seller_name: 'Yuni',
         mobile_numbers: ['085782886686'],
         whatsapp: 'https://wa.me/6285782886686'
@@ -117,7 +117,7 @@ var app = new Vue({
         tag: ['daging', 'frozen', 'sayur'],
         name: 'Toko Az-Zahra',
         description: 'Jual ayam segar, bawang merah, bawang putih, bawang bombay, aneka frozen food',
-        cover_image: 'assets/img/ayam-segar.jpg',
+        cover_image: 'assets/img/sm/ayam-segar.jpg',
         seller_name: '[]',
         mobile_numbers: ['081212370829'],
         whatsapp: 'https://wa.me/6281212370829'
@@ -127,7 +127,7 @@ var app = new Vue({
         tag: ['makanan'],
         name: 'Mullia kitchen',
         description: 'Gado2, bekakak, ayam, tahu jelotot & sintiling singkong',
-        cover_image: 'assets/img/gado.jpg',
+        cover_image: 'assets/img/sm/gado.jpg',
         seller_name: 'Ibu Wiwi D7 no 23',
         mobile_numbers: ['081290206000'],
         whatsapp: 'https://wa.me/6281290206000'
@@ -137,7 +137,7 @@ var app = new Vue({
         tag: ['makanan'],
         name: 'Dapoer Bang Doel',
         description: 'Nasgor biasa/seafood, bawang goreng, aneka sambal',
-        cover_image: 'assets/img/nasgor.jpg',
+        cover_image: 'assets/img/sm/nasgor.jpg',
         seller_name: 'Blok C2',
         mobile_numbers: ['081285124995', '085939137261'],
         whatsapp: 'https://wa.me/6281285124995'
@@ -147,7 +147,7 @@ var app = new Vue({
         tag: ['makanan', 'daging', 'minuman', 'sayur'],
         name: 'Toko Ibrahim',
         description: 'Slice beef, cabe keriting, cabe merah, kue putri salju, keripik bawang dan minuman lemon',
-        cover_image: 'assets/img/slice-beef.jpg',
+        cover_image: 'assets/img/sm/slice-beef.jpg',
         seller_name: 'Ibrahim',
         mobile_numbers: ['081212370829'],
         whatsapp: 'https://wa.me/6281212370829'
@@ -157,7 +157,7 @@ var app = new Vue({
         tag: ['sayur', 'makanan'],
         name: 'Toko Akbar',
         description: 'Menyediakan sayur mayur, singkong, ubi (ungu/merah/kuning), pisang dan bahan2 rujakan jg ada',
-        cover_image: 'assets/img/sayur.jpg',
+        cover_image: 'assets/img/sm/sayur.jpg',
         seller_name: 'Akbar',
         mobile_numbers: ['081210417724'],
         whatsapp: 'https://wa.me/6281210417724'
@@ -167,7 +167,7 @@ var app = new Vue({
         tag: ['fashion', 'tas'],
         name: 'Maritza branded',
         description: 'Menjual tas branded second import Monza',
-        cover_image: 'assets/img/monza.jpg',
+        cover_image: 'assets/img/sm/monza.jpg',
         seller_name: 'Maritza Blok C no. 48',
         mobile_numbers: ['081388451199'],
         whatsapp: 'https://wa.me/6281388451199'
@@ -177,7 +177,7 @@ var app = new Vue({
         tag: ['minuman'],
         name: 'Teh Tarik Jelly',
         description: 'Teh Tarik Jelly. Tanpa Pengawet, Gula Asli, Ada Izin Dinkes',
-        cover_image: 'assets/img/teh-tarik.jpg',
+        cover_image: 'assets/img/sm/teh-tarik.jpg',
         seller_name: 'Blok C no 48',
         mobile_numbers: ['081382601912'],
         whatsapp: 'https://wa.me/6281382601912'
@@ -187,7 +187,7 @@ var app = new Vue({
         tag: ['keperluan rumah', 'kamar tidur'],
         name: 'YangUniQ',
         description: 'Custom ukuran sprei, bedcover, quilt cover, chussion cover, babynest, bansui, alas stroller dll',
-        cover_image: 'assets/img/sprei.jpg',
+        cover_image: 'assets/img/sm/sprei.jpg',
         seller_name: 'B 26',
         mobile_numbers: ['083133990199'],
         whatsapp: 'https://wa.me/6283133990199'
@@ -197,7 +197,7 @@ var app = new Vue({
         tag: ['makanan', 'frozen'],
         name: 'Bakso dan Sosis Pak Joko',
         description: 'Bakso asli daging sapi pak Joko dan sosis solo',
-        cover_image: 'assets/img/bakso.jpeg',
+        cover_image: 'assets/img/sm/bakso.jpg',
         seller_name: 'Pak Joko',
         mobile_numbers: ['081318999998'],
         whatsapp: 'https://wa.me/6281318999998'
@@ -207,7 +207,7 @@ var app = new Vue({
         tag: ['makanan'],
         name: 'Joyo Family catering',
         description: 'paru ungkep, ayam ungkep, krupuk bangka, krupuk tengriri, empal goreng, sambel ROA, sambel hijau',
-        cover_image: 'assets/img/ayam-ungkep.jpg',
+        cover_image: 'assets/img/sm/ayam-ungkep.jpg',
         seller_name: 'Joyo',
         mobile_numbers: ['081298611611'],
         whatsapp: 'https://wa.me/6281298611611'
@@ -217,7 +217,7 @@ var app = new Vue({
         tag: ['makanan'],
         name: 'JFC Aneka makanan',
         description: 'Aneka makanan',
-        cover_image: 'assets/img/aneka-makanan.jpg',
+        cover_image: 'assets/img/sm/aneka-makanan.jpg',
         seller_name: 'JFC',
         mobile_numbers: ['081310655656'],
         whatsapp: 'https://wa.me/6281310655656',
@@ -228,7 +228,7 @@ var app = new Vue({
         tag: ['makanan', 'frozen'],
         name: 'Pempek Palembang AKA 252',
         description: 'Aneka kuliner khas Palembang dlm bentuk frozen food dan siap santap, seperti: aneka pempek, tekwan, model ikan, laksan, celimpungan. Aneka kue basah: maksuba, kojo, engkak ketan, srikaya ketan. Aneka masakan: pindang patin, pindang tulang, brengkes patin tempoyak. Menerima pesanan menu prasmanan maupun nasi kotak.',
-        cover_image: 'assets/img/aneka-ikan.jpg',
+        cover_image: 'assets/img/sm/aneka-ikan.jpg',
         seller_name: 'Ibu Mike',
         mobile_numbers: ['+6287885170561'],
         whatsapp: 'https://wa.me/6287885170561'
@@ -238,7 +238,7 @@ var app = new Vue({
         tag: ['makanan', 'buah'],
         name: 'Toko buah Shila',
         description: 'Menjual bermacam-macam buah segar',
-        cover_image: 'assets/img/buah-segar.jpg',
+        cover_image: 'assets/img/sm/buah-segar.jpg',
         seller_name: 'Shila Blok D7 no 3',
         mobile_numbers: ['081211379215'],
         whatsapp: 'https://wa.me/6281211379215'
@@ -248,7 +248,7 @@ var app = new Vue({
         tag: ['makanan'],
         name: 'Pawon Ira Solo',
         description: 'aneka makanan',
-        cover_image: 'assets/img/aneka-makanan.jpeg',
+        cover_image: 'assets/img/sm/aneka-makanan-1.jpg',
         seller_name: '[]',
         mobile_numbers: ['081298611611'],
         whatsapp: 'https://wa.me/6281298611611'
@@ -258,7 +258,7 @@ var app = new Vue({
         tag: ['makanan'],
         name: 'Toko Kue Mama Aqila',
         description: 'Menu: Nastar, putri salju, kastengel, choco cookies. Menerima pesanan: macaroni schotel, cilok bumbu kacang, cilok kuah pedas, pisang lumer, ceker mercon.',
-        cover_image: 'assets/img/makotel.jpg',
+        cover_image: 'assets/img/sm/makotel.jpg',
         seller_name: 'Mama Aqila',
         mobile_numbers: ['087852034227'],
         whatsapp: 'https://wa.me/6287852034227'
@@ -268,7 +268,7 @@ var app = new Vue({
         tag: ['makanan', 'baju', 'buku'],
         name: 'Dapur Melet & Elnoah',
         description: 'Keripik tempe, cookies n cake, buku, baju muslim anak',
-        cover_image: 'assets/img/cookie-cake.jpg',
+        cover_image: 'assets/img/sm/cookie-cake.jpg',
         seller_name: '[]',
         mobile_numbers: ['085776297569', '087783077299'],
         whatsapp: 'https://wa.me/6285776297569',
@@ -279,7 +279,7 @@ var app = new Vue({
         tag: ['fashion', 'kecantikan'],
         name: 'Indah Istianah C-41',
         description: 'Menjual & menerima reseller product Oriflame : Skincare, Parfume Pria & Wanita, Personal Care, Make up, Wellbeing',
-        cover_image: 'assets/img/oriflame.jpg',
+        cover_image: 'assets/img/sm/oriflame.jpg',
         seller_name: 'Indah Istianah C-41',
         mobile_numbers: ['081392006176',],
         whatsapp: 'https://wa.me/6281392006176'
@@ -289,7 +289,7 @@ var app = new Vue({
         tag: ['optik', 'kesehatan'],
         name: 'Optik Cendrawasih',
         description: 'Periksa mata dan terima resep dokter',
-        cover_image: 'assets/img/optik.jpg',
+        cover_image: 'assets/img/sm/optik.jpg',
         seller_name: 'Yoyoh',
         mobile_numbers: ['087886666109',],
         whatsapp: 'https://wa.me/6287886666109'
@@ -299,7 +299,7 @@ var app = new Vue({
         tag: ['jasa', 'reparasi'],
         name: 'Garasi Bang Dzakha',
         description: 'Reparasi sepeda, komputer/PC, service dan maintenance',
-        cover_image: 'assets/img/reparasi-sepeda.jpg',
+        cover_image: 'assets/img/sm/reparasi-sepeda.jpg',
         seller_name: 'Ardi Blok E',
         mobile_numbers: ['082111109222',],
         whatsapp: 'https://wa.me/6282111109222'
