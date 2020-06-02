@@ -397,7 +397,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/hero-bg-3.png") top center;
+  background: url("../img/lg/hero-bg-3.png") top center;
   background-size: cover;
   position: relative;
 }
@@ -465,6 +465,8 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #hero {
     height: 100vh;
+    background: url("../img/md/hero-bg-3.png") top center;
+    background-size: cover;
   }
   #hero h1 {
     font-size: 28px;
@@ -473,6 +475,13 @@ h1, h2, h3, h4, h5, h6 {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  #hero {
+    background: url("../img/sm/hero-bg-3.png") top center;
+    background-size: cover;
   }
 }
 
