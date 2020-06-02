@@ -1,4 +1,20 @@
-var app = new Vue({
+Vue.use(VueLazyload);
+
+// var a = new Vue({
+//   el: '#hero',
+//   data: {
+//     background_image: 'assets/img/hero-bg-3.png'
+//   }
+// });
+
+var b = new Vue({
+  el: '#about', 
+  data: {
+    about_img: 'assets/img/about.png'
+  }
+});
+
+var c = new Vue({
   el: '#store',
   data: {
     stores: [{
