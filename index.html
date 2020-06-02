@@ -154,7 +154,9 @@
                   <div class="d-flex flex-wrap align-items-start">
                     <!-- <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt=""> -->
                     <span class="pr-2">{{ store.seller_name }}</span>
-                    <span><a :href="`tel:${store.mobile_no}`">{{ store.mobile_no }}</a></span>
+                    <span v-for="mobile_no in store.mobile_numbers">
+                      <a :href="`tel:${mobile_no}`" class="mr-1">{{ mobile_no }}</a>
+                    </span>
                   </div>
            
                 </div>
