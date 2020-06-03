@@ -743,7 +743,22 @@ section {
   background-color: rgb(255, 255, 255);
 }
 
-.courses .course-item img{
+.courses .course-item .course-image {
+  position: relative; 
+  text-align: center;
+}
+
+.courses .course-item .course-image .course-image-text {
+  z-index: 2;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(30, 30, 30, 0.5);
+  font-size: 0.7em;
+}
+
+.courses .course-item img {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
