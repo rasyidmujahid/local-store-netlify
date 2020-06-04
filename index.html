@@ -129,7 +129,7 @@
                   <a :href="tag" v-for="tag in store.tag" class="my-1 mr-1"><h4 class="p-1">{{ tag }}</h4></a>
                 </div>
 
-                <h3><a href="course-details.html">{{ store.name }}</a></h3>
+                <h3><a :href="`${store.name.replace(/\W+/g, '-').toLowerCase()}`">{{ store.name }}</a></h3>
                 <p>{{ store.description }}</p>
                 <div class="trainer d-flex flex-wrap justify-content-between align-items-center">
                   <div class="d-flex flex-wrap align-items-start">
